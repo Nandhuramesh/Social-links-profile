@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+}
+.card-frame{
+    width: 400px;
+    max-height: 650px;
+    background-color: rgb(31, 31, 31);
+    justify-content: center;
+    border-radius: 10px;
+}
+.image{
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+}
+.image img{
+   width: 100px;
+   border-radius: 50%;
+}
+.content{
+    text-align: center;
+    margin-top: 10px;
+}
+.content h1{
+    color: white;
+}
+.content h4{
+    color: rgb(197, 232, 44);
+}
+.skill{
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+}
+.link ul li{
+    list-style: none;
+    margin: 15px;
+    width: 350px;
+    height: 50px;
+    background-color: rgb(51, 51, 51) ;
+    line-height: 50px;
+    border-radius: 10px;
+}
+.link ul li a{
+    text-decoration: none;
+    color: white;
+}
+.link ul li:hover{
+    background-color: rgb(197, 232, 44);
+}
+.link ul li a:hover{
+    color: black;
+}
